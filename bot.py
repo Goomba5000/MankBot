@@ -21,7 +21,7 @@ async def send():
     
     # Forms filename.
     prefix = "scene"
-    filename = "MankBot\\Mank\\"
+    filename = "Mank\\"
     numStr = str(picIndex)
     for i in range(5-len(numStr)):
         prefix += "0"
