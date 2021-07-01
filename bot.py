@@ -33,7 +33,8 @@ async def send():
         if guild.name == GUILD:
             for channel in guild.channels:
                 if channel.name == "test":
-                    await channel.send(file=discord.File(filename))
+                    await channel.send("Am I Here")
+                    #await channel.send(file=discord.File(filename))
     picIndex += 24
 
 @client.event
